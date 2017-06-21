@@ -9,7 +9,7 @@
       - ntp
       - wget
       - screen
-      - java7-devel
+##      - java8-devel
 ##      - "@Development tools"
 
   - name: Disable selinux

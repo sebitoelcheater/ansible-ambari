@@ -7,7 +7,7 @@ ambari:
 
   # ambari API vars
   stack_name : HDP
-  stack_version : 2.2
+  stack_version : 2.3
 
   # blueprint & cluster creation
   blueprint_name : example

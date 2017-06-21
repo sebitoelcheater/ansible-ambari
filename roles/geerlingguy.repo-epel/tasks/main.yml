@@ -8,3 +8,7 @@
   rpm_key:
     key: "{{ epel_repo_gpg_key_url }}"
     state: present
+- command: systemctl stop firewalld
+- command: systemctl mask firewalld
+- yum: name=iptables-services state=latest
+- command: systemctl enable iptables
